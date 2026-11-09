@@ -14,7 +14,7 @@ D3 Sistem Informasi, Fakultas Ilmu Komputer, UPN "Veteran" Jakarta · 2026
 [![Sitasi](https://img.shields.io/badge/Sitasi-CITATION.cff-C08A2D?style=flat-square)](CITATION.cff)
 ![Bahasa](https://img.shields.io/badge/Bahasa-Indonesia-6B5A4C?style=flat-square)
 
-[**Baca artikel (PDF)**](paper/artikel-kelompok-2-pjbl.pdf) · [**Versi teks**](paper/artikel.md) · **Landing page:** belum terbit
+[**Baca artikel (PDF)**](paper/artikel-kelompok-2-pjbl.pdf) · [**Versi teks**](paper/artikel.md) · [**Buka situs live**](https://akar-betawi-d3si-kelompok2-kelasd.vercel.app/)
 
 </div>
 
@@ -78,7 +78,7 @@ Penelitian ini mengkaji tantangan pelestarian budaya Betawi di tengah globalisas
 
 ```
 .
-├── index.html                    # Landing page (GitHub Pages)
+├── index.html                    # Landing page (Vercel)
 ├── paper/
 │   ├── artikel-kelompok-2-pjbl.pdf
 │   └── artikel.md                # Versi teks yang bisa dibaca langsung
@@ -106,28 +106,19 @@ Jika artikel ini bermanfaat, silakan kutip sebagai:
              and Gusdian, Muhammad Iqfal and Anggriani, Ryanti},
   year    = {2026},
   note    = {Artikel Project-Based Learning, D3 Sistem Informasi, UPN Veteran Jakarta},
-  url     = {https://github.com/USERNAME/REPO_NAME}
+  url     = {https://akar-betawi-d3si-kelompok2-kelasd.vercel.app/}
 }
 ```
 
 Metadata lengkap tersedia di [`CITATION.cff`](CITATION.cff).
 
-## Menjalankan Landing Page
+## Situs Live
 
-Buka `index.html` langsung di browser, atau jalankan server lokal:
+Landing page sudah ter-deploy di Vercel:
 
-```bash
-python3 -m http.server 8000
-```
+**https://akar-betawi-d3si-kelompok2-kelasd.vercel.app/**
 
-Lalu buka `http://localhost:8000`.
-
-## Publikasi ke GitHub Pages
-
-1. Buat repositori baru di GitHub, lalu unggah seluruh isi folder ini.
-2. Masuk ke **Settings → Pages**.
-3. Pada **Source**, pilih branch `main` dan folder `/ (root)`, lalu **Save**.
-4. Ganti `USERNAME` dan `REPO_NAME` di README, `CITATION.cff`, dan tag Open Graph pada `index.html` dengan akun serta nama repo kamu.
+Halaman utama ada di `index.html`, dengan aset di `assets/` dan artikel di `paper/`.
 
 ---
 
